@@ -1,5 +1,5 @@
 var doc= new Array("nithish","sathish","suresh","mahesh")
-doc.forEach(docname => {
-    console.log(docname)
+doc.forEach((value,index) => {
+    console.log(value+" "+index)
         
 });

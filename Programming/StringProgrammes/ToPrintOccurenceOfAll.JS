@@ -1,10 +1,5 @@
 var str='testyanra'
 var vowels="AEIOUaeiou"
-
-ch=new Array(str.length)
-for (let index = 0; index < str.length; index++) {
-  ch[index]= str.charAt(index)
-}
 flag=new Array(str.length)
 for (let i = 0; i< str.length; i++) {
     var count=1;
