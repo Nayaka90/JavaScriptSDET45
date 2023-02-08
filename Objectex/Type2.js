@@ -11,6 +11,8 @@ function docdetails(name,age,consulataionfees,qualification,wishfn)
     
 }
 
+
+
 var data1=new docdetails("nithish",25,500,["mbbs","mphil"],()=>"hi")
 var data2=new docdetails("sathish",35,600,["bsc","msc"])
 console.log(data1.wishfn());//hi
@@ -32,5 +34,7 @@ console.log(data1.wish);//undefined
 for (const key in data1) {
     console.log(key+"--->"+data1[key])
 }
+
+    
 
 

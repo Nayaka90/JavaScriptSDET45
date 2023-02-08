@@ -10,5 +10,5 @@ return ch.join("")// tesyanra
 
 //return ch.tostring()//t,e,s,y,a,n,r,a
 }
-
-console.log("after removing duplicates "+removeduplicates('testyanra'));
+var str='Testyanra'
+console.log("after removing duplicates "+removeduplicates(str));
