@@ -6,6 +6,7 @@ console.log(Math.asinh(1/2));//sinh(1/2)
 console.log(Math.ceil(8.1));// 9 round up to highest value
 console.log(Math.trunc(1002.95));//1002 it will remove all fractions
 console.log(Math.exp(2));//e^2
+
 console.log(Math.expm1(0));//e^2-1
 console.log(Math.floor(9.99));//roundup to lowest value
 console.log(Math.fround(8.01));//8.010000228881836 Returns the nearest single precision float representation of a number

@@ -53,5 +53,3 @@ console.log(hrr.filter(value=>value>2))
 console.log(hrr.length);
 console.log(hrr.fill(8,0,3))
 console.log(hrr);
-
-
