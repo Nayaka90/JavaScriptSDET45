@@ -2,6 +2,11 @@
 
 
 async function Doctor(){
+   var p = await dataBase(getUserName().username);
+   console.log(p)
+    Login(getUserName().username,p.password)
+ 
+}
     function getUserName(){
         var obj={username:"nithish"}
         console.log(obj.username)
@@ -15,15 +20,17 @@ async function Doctor(){
                  resolve({password:123456})
                 else
                 reject("not found")
-            },10000)
+            },2000)
         })
     }
-    
-    p=dataBase(getUserName().username);
-    await p.then(msg=>console.log(msg.password)).catch(msg=>console.log(msg))
+    function Login(un ,pwd){
+  console.log(un+pwd)
+    }
+ 
    
-}
+
 Doctor();
+
 
 
 

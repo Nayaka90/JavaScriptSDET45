@@ -18,4 +18,3 @@ var patient1=new patient("nithish",25)
 console.log(patient1.names);
 patient1.names="vinod"
 console.log(patient1.names);
-
